@@ -14,7 +14,7 @@ A modern, responsive, and bilingual personal portfolio website showcasing my aca
 👉 https://mostafa-khalid208.github.io/Old_My-CV-Communications-Electronics-Engineer/
 
 🔗 **New Portfolio Website:**  
-👉 https://mostafa-khalid208.github.io/Old_My-CV-Communications-Electronics-Engineer/
+👉 https://mostafa-khalid208.github.io/My-CV-Communications-Electronics-Engineer/
 ---
 
 ## 📌 Features
