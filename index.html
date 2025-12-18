@@ -1,0 +1,479 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eng. Mostafa Khalid Sallam</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&family=Cairo:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <img src="https://github.com/user-attachments/assets/473eb39f-160b-41ec-b021-6e2ae2d561fc" alt="Mostafa Khalid Sallam" class="profile-img">
+        <h1 class="en">Mostafa Khalid Sallam</h1>
+        <p class="en"><strong>Communications & Electronics Engineer | Jr. Flutter Developer | Jr. ML</strong></p>
+        <h1 class="ar hidden">مصطفى خالد سلام</h1>
+        <p class="ar hidden"><strong>مهندس اتصالات وإلكترونيات | مطور Flutter مبتدئ | مهندس تعلم آلي مبتدئ</strong></p>
+
+        <div class="controls">
+            <div class="lang-toggle">
+                <i class="fas fa-globe"></i>
+                <button onclick="changeLanguage('en')">English</button>
+                <button onclick="changeLanguage('ar')">العربية</button>
+            </div>
+            <button id="theme-toggle" onclick="toggleTheme()">
+                <i class="fas fa-moon"></i>
+            </button>
+        </div>
+<li class="en">
+  <strong>My CV:</strong>
+  <a href="https://drive.google.com/drive/u/1/folders/1kpppwx5oH_oj1Bh7M9Oz1F-sH6rwQeOk"
+     target="_blank"
+     style="color: black;text-decoration: none; ">
+    Link
+  </a>
+</li>
+
+<li class="ar hidden">
+  <strong>سيرتي الذاتية (CV):</strong>
+  <a href="https://drive.google.com/drive/u/1/folders/1kpppwx5oH_oj1Bh7M9Oz1F-sH6rwQeOk"
+     target="_blank"
+     style="color: black; text-decoration: none;">
+    الرابط
+  </a>
+</li>
+
+    </header>
+
+    <nav id="home-nav">
+        <ul>
+            <li class="en"><a href="#contact" onclick="showSection('contact')">Contact</a></li>
+            <li class="en"><a href="#about" onclick="showSection('about')">About</a></li>
+            <li class="en"><a href="#work-experiences" onclick="showSection('work-experiences')">Work</a></li>
+            <li class="en"><a href="#education" onclick="showSection('education')">Education</a></li>
+            <li class="en"><a href="#projects" onclick="showSection('projects')">Project</a></li>
+            <li class="en"><a href="#skills" onclick="showSection('skills')">Skills</a></li>
+            <li class="en"><a href="#experience" onclick="showSection('experience')">Experience</a></li>
+            <li class="en"><a href="#courses" onclick="showSection('courses')">Courses</a></li>
+            <li class="en"><a href="#certificates" onclick="showSection('certificates')">Certificates</a></li>
+            <li class="ar hidden"><a href="#contact" onclick="showSection('contact')">التواصل</a></li>
+            <li class="ar hidden"><a href="#about" onclick="showSection('about')">عني</a></li>
+            <li class="ar hidden"><a href="#work-experiences" onclick="showSection('work-experiences')">العمل</a></li>
+            <li class="ar hidden"><a href="#education" onclick="showSection('education')">التعليم</a></li>
+            <li class="ar hidden"><a href="#projects" onclick="showSection('projects')">المشاريع</a></li>
+            <li class="ar hidden"><a href="#skills" onclick="showSection('skills')">المهارات</a></li>
+            <li class="ar hidden"><a href="#experience" onclick="showSection('experience')">الخبرة</a></li>
+            <li class="ar hidden"><a href="#courses" onclick="showSection('courses')">الدورات</a></li>
+            <li class="ar hidden"><a href="#certificates" onclick="showSection('certificates')">الشهادات</a></li>
+        </ul>
+    </nav>
+
+    <main>
+        <section id="contact" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Contact Information</h2>
+            <h2 class="ar hidden">معلومات الاتصال</h2>
+            <ul class="en">
+                <li><strong>Phone:</strong> +201060770591</li>
+                <li><strong>Email:</strong> <a href="mailto:mostafa.khalid.sallam208@gmail.com" target="_blank">mostafa.khalid.sallam208@gmail.com</a></li>
+                <li><strong>LinkedIn:</strong> <a href="https://www.linkedin.com/in/mostafa-khalid208/" target="_blank">LinkedIn Profile</a></li>
+                <li><strong>GitHub:</strong> <a href="https://github.com/mostafa-khalid208" target="_blank">GitHub Profile</a></li>
+                <li><strong>Facebook:</strong> <a href="https://www.facebook.com/Mostafa.Khalid208" target="_blank">Facebook Profile</a></li>
+                <li><strong>X:</strong> <a href="https://x.com/Mostafa_Kh208" target="_blank">X Profile</a></li>
+                <li><strong>Threads:</strong> <a href="https://www.threads.net/@mostafa.khalid208" target="_blank">Threads Profile</a></li>
+                <li><strong>BlueSky:</strong> <a href="https://bsky.app/profile/mostafakhalid208.bsky.social" target="_blank">BlueSky Profile</a></li>
+                <li><strong>Telegram:</strong> <a href="https://t.me/Mostafa_Khalid208" target="_blank">Telegram Profile</a></li>
+                <li><strong>Whatsapp:</strong> <a href="https://wa.me/201060770591" target="_blank">Whatsapp Profile</a></li>
+                <li><strong>Instagram:</strong> <a href="https://www.instagram.com/mostafa.khalid208" target="_blank">Instagram Profile</a></li>
+                <li><strong>Youtube:</strong> <a href="https://www.youtube.com/@MostafaKhalid208" target="_blank">Youtube Profile</a></li>
+                <li><strong>Udemy:</strong> <a href="https://www.udemy.com/user/mostafa-khalid-sallam/" target="_blank">Udemy Profile</a></li>
+                <li><strong>Coursera:</strong> <a href="https://www.coursera.org/learner/mostafa-khalid-208" target="_blank">Coursera Profile</a></li>
+                <li><strong>Mostaql:</strong> <a href="https://mostaql.com/u/Mostafa_Khalid8" target="_blank">Mostaql Profile</a></li>
+                <li><strong>Khamsat:</strong> <a href="https://khamsat.com/user/mostafa_khalid208" target="_blank">Khamsat Profile</a></li>
+                <li><strong>GulfTalent:</strong> <a href="https://www.gulftalent.com/people/mostafa-khalid-11489644" target="_blank">GulfTalent Profile</a></li>
+                <li><strong>Indeed:</strong> <a href="https://profile.indeed.com/p/mostafak-3pv5pr9" target="_blank">Indeed Profile</a></li>
+                <li><strong>My CV App:</strong> <a href="https://www.mediafire.com/file/474ed2bvmn5ysm9/Eng_Mostafa_Khalid_%2528CV%2529.apk/file" target="_blank">My CV APK</a></li>
+                <li><strong>Military Status:</strong> Exempt</li>
+                <li><strong>Location:</strong> Kafr Essam, Tanta, El Gharbia, Egypt</li>
+            </ul>
+            <ul class="ar hidden">
+                <li><strong>الهاتف:</strong> +201060770591</li>
+                <li><strong>البريد الإلكتروني:</strong> <a href="mailto:mostafa.khalid.sallam208@gmail.com" target="_blank">mostafa.khalid.sallam208@gmail.com</a></li>
+                <li><strong>لينكدان:</strong> <a href="https://www.linkedin.com/in/mostafa-khalid208/" target="_blank">الملف الشخصي</a></li>
+                <li><strong>جيت هاب:</strong> <a href="https://github.com/mostafa-khalid208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>فيسبوك:</strong> <a href="https://www.facebook.com/Mostafa.Khalid208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>أكس:</strong> <a href="https://x.com/Mostafa_Kh208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>ثريدز:</strong> <a href="https://www.threads.net/@mostafa.khalid208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>بلوسكاي:</strong> <a href="https://bsky.app/profile/mostafakhalid208.bsky.social" target="_blank">الملف الشخصي</a></li>
+                <li><strong>تليجرام:</strong> <a href="https://t.me/Mostafa_Khalid208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>واتساب:</strong> <a href="https://wa.me/201060770591" target="_blank">الملف الشخصي</a></li>
+                <li><strong>إنستغرام:</strong> <a href="https://www.instagram.com/mostafa.khalid208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>يوتيوب:</strong> <a href="https://www.youtube.com/@MostafaKhalid208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>يوديمي:</strong> <a href="https://www.udemy.com/user/mostafa-khalid-sallam/" target="_blank">الملف الشخصي</a></li>
+                <li><strong>كورسيرا:</strong> <a href="https://www.coursera.org/learner/mostafa-khalid-208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>مستقل:</strong> <a href="https://mostaql.com/u/Mostafa_Khalid8" target="_blank">الملف الشخصي</a></li>
+                <li><strong>خمسات:</strong> <a href="https://khamsat.com/user/mostafa_khalid208" target="_blank">الملف الشخصي</a></li>
+                <li><strong>جولف تلنت:</strong> <a href="https://www.gulftalent.com/people/mostafa-khalid-11489644" target="_blank">الملف الشخصي</a></li>
+                <li><strong>إنديد:</strong> <a href="https://profile.indeed.com/p/mostafak-3pv5pr9" target="_blank">الملف الشخصي</a></li>
+                <li><strong>سيرتي الذاتية (تطبيق):</strong> <a href="https://www.mediafire.com/file/474ed2bvmn5ysm9/Eng_Mostafa_Khalid_%2528CV%2529.apk/file" target="_blank">سيرتي الذاتية APK</a></li>
+                <li><strong>الحالة العسكرية:</strong> معفى</li>
+                <li><strong>العنوان:</strong> كفر عصام، طنطا، الغربية، مصر</li>
+            </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="about" data-aos="fade-up" class="section hidden">
+            <h2 class="en">About Me</h2>
+            <h2 class="ar hidden">عني</h2>
+            <p class="en">
+               I am a highly motivated, detail-oriented communications and electronics engineer with a GPA of 3.58/4.0 (excellent). I have practical experience as an Assistant Teaching in the Department of Electrical and Communications Engineering, where I specialized in e-learning systems, academic advising, and education quality assurance. I am passionate about contributing to innovative projects in communications, electronics, and networking.
+
+            </p>
+            <p class="en">
+                I have extensive training in mobile communication technologies — including GSM, GPRS, EDGE, UMTS, HSPA, LTE, and 5G (NR) — and hands-on experience in radio frequency planning, drive testing, and post-processing analysis. I am CCNA (Cisco Certified Network Associate) certified and possess solid knowledge of networking fundamentals, switching and routing, wireless principles, and network automation.
+            </p>
+            <p class="en">
+                I have knowledge as a Junior Flutter Developer with experience in mobile application development using Flutter, Dart, and VS Code.
+            </p>
+            <p class="en">
+               My graduation project focused on embedded systems and the Internet of Things, using ESP32, Arduino Uno, and sensors (soil moisture, temperature, and water level), with Firebase integration and a mobile interface built on FlutterFlow.
+            </p>
+<p class="en">
+                I am proficient in Python, C++, and Dart, and skilled in engineering tools such as MATLAB, Simulink, AutoCAD, Revit, and TEMS Investigation.
+
+            </p>
+
+<p class="en">
+                I hold an HCIA-AI certification from NTI and an AI & Machine Learning certification from Sprints, which broadened my knowledge in artificial intelligence, machine learning, and intelligent systems design. With strong problem-solving abilities, effective communication skills, and a growth-oriented mindset, I am eager to contribute to cutting-edge projects in communications, embedded systems, and intelligent software development.
+
+            </p>
+
+
+            <p class="ar hidden">
+                أنا مهندس اتصالات وإلكترونيات متحمس للغاية ومهتم بالتفاصيل، وحصلت على معدل تراكمي 3.58/4.0 (ممتاز). لدي خبرة عملية كمساعد تدريس في قسم الهندسة الكهربائية والاتصالات، حيث تخصصت في أنظمة التعلم الإلكتروني، والإرشاد الأكاديمي، وضمان جودة التعليم. أنا متحمس للمساهمة في المشاريع المبتكرة في مجال الاتصالات والإلكترونيات والشبكات.
+            </p>
+            <p class="ar hidden">لدي تدريب مكثف في تقنيات الاتصالات المتنقلة — بما في ذلك GSM و GPRS و EDGE و UMTS و HSPA و LTE و 5G (NR) — وخبرة عملية في تخطيط الترددات الراديوية واختبار القيادة وتحليل ما بعد المعالجة. أنا حاصل على شهادة CCNA (شهادة شبكة معتمدة من Cisco) ولدي معرفة قوية بأساسيات الشبكات والتبديل والتوجيه ومبادئ الاتصالات اللاسلكية وأتمتة الشبكات.
+            </p>
+            <p class="ar hidden">لدي معرفة كمطور Flutter مبتدئ مع خبرة في تطوير تطبيقات الهاتف المحمول باستخدام Flutter و Dart و VS Code.
+
+            </p>
+            <p class="ar hidden">ركز مشروع تخرجي على الأنظمة المدمجة وإنترنت الأشياء، باستخدام ESP32 و Arduino Uno وأجهزة استشعار (رطوبة التربة ودرجة الحرارة ومستوى المياه)، مع تكامل Firebase وواجهة محمولة مبنية على FlutterFlow.
+            </p>
+
+<p class="ar hidden">أنا بارع في لغات البرمجة Python و C++ و Dart، وماهر في استخدام أدوات الهندسة مثل MATLAB و Simulink و AutoCAD و Revit و TEMS Investigation.
+            </p>
+
+<p class="ar hidden">أحمل شهادة HCIA-AI من NTI وشهادة AI & Machine Learning من Sprints، مما وسع معرفتي في مجال الذكاء الاصطناعي والتعلم الآلي وتصميم الأنظمة الذكية. بفضل قدراتي القوية في حل المشكلات ومهاراتي الفعالة في التواصل وعقليتي الموجهة نحو النمو، أنا متحمس للمساهمة في المشاريع المتطورة في مجال الاتصالات والأنظمة المدمجة وتطوير البرمجيات الذكية.      </p>
+
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="work-experiences" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Work Experiences</h2>
+            <h2 class="ar hidden">خبرات العمل</h2>
+<p class="en"><strong> Course Instructor at Udemy – Remote:</strong> 
+                <br> - Course: Introduction to Telecommunications: A Beginner's Guide (Feb 2025 – Present) <a href="https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?referralCode=F62C4C8E618017AF4D3B">(Link)</a>
+
+                <br> - Designed and taught a beginner-level Udemy course on Telecommunications, covering fundamentals to advanced topics.
+            </p>
+            <p class="en"><strong>Teaching Assistant at Valley Institute for Engineering & Technology In Obour City:</strong> 
+                <br> - Worked as a Teaching Assistant in the Department of Electrical and Communication Engineering for one term (September - December 2024).
+                <br> - Specializing in academic teaching, academic guidance, e-learning, and educational quality assurance.
+            </p>
+ 
+
+            <p class="ar hidden"><strong>مدرس دورات تدريبية في Udemy - عن بُعد:</strong> 
+                <br> - الدورة التدريبية: مقدمة في الاتصالات السلكية واللاسلكية: دليل المبتدئين (فبراير 2025 - حتى الآن) <a href="https://www.udemy.com/course/introduction-to-telecommunications-a-beginners-guide/?referralCode=F62C4C8E618017AF4D3B">(رابط)</a>
+
+                <br> -  دورة تدريبية على مستوى المبتدئين في Udemy حول الاتصالات السلكية واللاسلكية على مستوى المبتدئين، والتي تغطي الموضوعات من الأساسيات إلى الموضوعات المتقدمة.
+            </p>
+
+<p class="ar hidden"><strong>معيد في معهد الوادي العالي للهندسة والتكنولوجيا بالعبور:</strong> 
+                <br> - عملت معيدًا في قسم الهندسة الكهربائية والاتصالات لمدة فصل دراسي واحد (سبتمبر - ديسمبر 2024).
+                <br> - تخصصت في التدريس الأكاديمي، والتوجيه الأكاديمي، والتعليم الإلكتروني، وضمان الجودة التعليمية.
+            </p>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="education" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Education</h2>
+            <h2 class="ar hidden">التعليم</h2>
+            <p class="en"><strong>Bachelor's Degree in Communication and Electronics Engineering</strong> <a href="https://drive.google.com/file/d/1MFr-KQmtQr2J17H0kYjmXdXix_NB91ue/view?usp=drive_link" target="_blank">(Bachelor's Degree)</a></p>
+            <p class="en">Valley Institute for Engineering & Technology In Obour City <a href="https://sva.edu.eg/" target="_blank">(SVA)</a></p>
+            <p class="en">Graduated: July 2024</p>
+            <p class="en">GPA: 3.58/4.0 (Excellent)</p>
+            <p class="ar hidden"><strong>بكالوريوس في هندسة الاتصالات والإلكترونيات</strong> <a href="https://drive.google.com/file/d/1MFr-KQmtQr2J17H0kYjmXdXix_NB91ue/view?usp=drive_link" target="_blank">(البكالوريوس)</a></p>
+            <p class="ar hidden">معهد الوادي العالي للهندسة والتكنولوجيا بالعبور <a href="https://sva.edu.eg/" target="_blank">(SVA)</a></p>
+            <p class="ar hidden">تخرجت: يوليو 2024</p>
+            <p class="ar hidden">المعدل التراكمي: 3.58/4.0 (امتياز)</p>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="projects" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Graduation Project</h2>
+            <h2 class="ar hidden">مشروع التخرج</h2>
+            <ul class="en">
+                <li><p><strong>Graduation Project (A+):</strong> Smart Technology Applications in Agriculture<br>
+                    <em>Description:</em> Developed a smart irrigation system using IoT and AI to enhance agricultural productivity and sustainability.<br>
+                    <a href="https://github.com/mostafa-khalid208/SMART-TECHNOLOGY-APPLICATIONS-IN-AGRICULTURE" target="_blank">GitHub Project</a></p></li>
+            </ul>
+            <ul class="ar hidden">
+                <li><p><strong>مشروع التخرج (أ+):</strong> تطبيقات التكنولوجيا الذكية في الزراعة<br>
+                    <em>وصف:</em> قمت بتطوير نظام ري ذكي يعتمد على تقنيات إنترنت الأشياء (IoT) والذكاء الاصطناعي (AI) لتعزيز الإنتاجية الزراعية وتحقيق الاستدامة.<br>
+                    <a href="https://github.com/mostafa-khalid208/SMART-TECHNOLOGY-APPLICATIONS-IN-AGRICULTURE" target="_blank">المشروع على GitHub</a></p></li>
+            </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="skills" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Technical Skills</h2>
+            <h2 class="ar hidden">المهارات التقنية</h2>
+            <ul class="en">
+                <li><strong>Programming Languages:</strong> Python, C++, Dart</li>
+                <li><strong>Tools & Technologies:</strong> VS Code, Flutter, FlutterFlow, ESP32, Arduino Uno, Firebase</li>
+                <li><strong>Networking:</strong> Cisco Packet Tracer, CCNA</li>
+                <li><strong>Telecommunications:</strong> TEMS Investigation, Atoll</li>
+                <li><strong>Office Tools:</strong> Microsoft Office (Excel, Word, PowerPoint)</li>
+            </ul>
+            <ul class="ar hidden">
+                <li><strong>لغات البرمجة:</strong> Python, C++, Dart</li>
+                <li><strong>الأدوات والتقنيات:</strong> VS Code, Flutter, FlutterFlow, ESP32, Arduino Uno, Firebase</li>
+                <li><strong>الشبكات:</strong> Cisco Packet Tracer, CCNA</li>
+                <li><strong>الاتصالات السلكية واللاسلكية:</strong> TEMS Investigation, Atoll</li>
+                <li><strong>أدوات مايكروسوفت أوفيس:</strong> مايكروسوفت أوفيس (Excel, Word, PowerPoint)</li>
+            </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="experience" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Training & Experiences</h2>
+            <h2 class="ar hidden">التدريب والخبرات</h2>
+            <ul class="en">
+<li><strong> NTI/Huawei Egyptian Talent Academy (ETA):</strong> Artificial Intelligence (AI) (HCIA-AI) <a href="https://drive.google.com/file/d/1N3XyRdsflW424ToNiiOry8QSJgx1Iddq/view?usp=drive_link" target="_blank">Artificial Intelligence (AI) (HCIA-AI)</a></li>
+
+<li><strong>Creativa Innovation Hubs:</strong> Flutter Camp <a href="https://drive.google.com/file/d/1pyP6hgKeWUrDzYPT8MzxpC1pHQdFWkST/view?usp=drive_link" target="_blank">Flutter Camp</a></li>
+
+                <li><strong>Telecom Egypt (WE):</strong> Cisco Certified Network Associate (CCNA 200-301) <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view" target="_blank">Cisco_CCNA (200-301)_ Telecom Egypt (WE)</a></li>
+                <li><strong>Trust Telecom Academy:</strong> Mobile package (2G, 3G, 4G, 5G) <a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view" target="_blank">Mobile Package</a></li>
+                <li><strong>Gharbia Engineers Syndicate:</strong> Basics of Electrical Engineering <a href="https://drive.google.com/file/d/1rrimcnFc7t5JAYcAwGuLVM7HWERIoQjB/view" target="_blank">Gharbia Engineers Syndicate</a></li>
+                <li><strong>Robotech EG:</strong> Fundamentals of Embedded Systems <a href="https://drive.google.com/file/d/1A7u9JWa605lTKatqVeOsNFSEqymMuSTZ/view" target="_blank">Embedded Systems</a></li>
+            </ul>
+            <ul class="ar hidden">
+
+<li><strong>أكاديمية المواهب المصرية (ETA) التابعة لشركة NTI/Huawei:</strong> الذكاء الاصطناعي (AI) (HCIA-AI)<a href="https://drive.google.com/file/d/1N3XyRdsflW424ToNiiOry8QSJgx1Iddq/view?usp=drive_link" target="_blank"> الذكاء الاصطناعي (AI) (HCIA-AI)</a></li>
+
+                <li><strong>مراكز الإبداع والابتكار (Creativa):</strong>  (Flutter)معسكر فلاتر<a href="https://drive.google.com/file/d/1pyP6hgKeWUrDzYPT8MzxpC1pHQdFWkST/view?usp=drive_link" target="_blank"> (Flutter)معسكر فلاتر</a></li>
+
+                <li><strong>المصرية للاتصالات (WE):</strong> Cisco Certified Network Associate (CCNA 200-301) <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view" target="_blank">Cisco_CCNA (200-301)_ المصرية للاتصالات (WE)</a></li>
+                <li><strong>أكاديمية تراست للاتصالات:</strong> Mobile package (2G, 3G, 4G, 5G) <a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view" target="_blank">Mobile Package</a></li>
+                <li><strong>نقابة المهندسين بالغربية:</strong> أساسيات الهندسة الكهربائية <a href="https://drive.google.com/file/d/1rrimcnFc7t5JAYcAwGuLVM7HWERIoQjB/view" target="_blank">نقابة المهندسين بالغربية</a></li>
+                <li><strong>Robotech EG:</strong> أساسيات الأنظمة المدمجة <a href="https://drive.google.com/file/d/1A7u9JWa605lTKatqVeOsNFSEqymMuSTZ/view" target="_blank">الأنظمة المدمجة</a></li>
+            </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="courses" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Courses & Trainings</h2>
+            <h2 class="ar hidden">الدورات والتدريبات</h2>
+            <ul class="en">
+ <li><strong> NTI/Huawei Egyptian Talent Academy (ETA)  (2025):</strong> Artificial Intelligence (AI) (HCIA-AI)
+                    <ul>
+                        <li>Completed an intensive AI journey covering foundations, data science, and machine learning.</li>
+                        <li>Gained practical skills in supervised, unsupervised, and deep learning (ANN, CNN, NLP, RNN).</li>
+                        <li>Developed a final project on early plant disease detection using Deep Learning.</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+
+ <li><strong>Creativa Innovation Hubs (2025):</strong> Flutter Camp
+                    <ul>
+                        <li>Completed hands-on training on Dart & Flutter fundamentals, OOP, API integration, and state management using Cubit & BLoC.</li>
+                        <li>Developed multiple real-world apps including BMI App, ToDo App, News App, Islamic App, and Calculator App.</li>
+                        <li>Progressed to an intermediate level in building scalable and maintainable mobile applications.</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+
+                <li><strong>TELECOM EGYPT (WE) (2023):</strong> Cisco Certified Network Associate (CCNA 200-301)
+                    <ul>
+                        <li>Introduction to Networks</li>
+                        <li>Switching, Routing, and Wireless Essentials</li>
+                        <li>Enterprise Networking, Security, and Automation</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>TRUST TELECOM ACADEMY (2023):</strong> Mobile Package
+                    <ul>
+                        <li>GSM, GPRS, EDGE, CDMA, UMTS, and HSPA</li>
+                        <li>LTE, LTE-A, and LTE-A Pro</li>
+                        <li>2G, 3G, and 4G Drive Test & Post Processing</li>
+                        <li>5G (NR) Mobile Technology</li>
+                        <li>5G and 4G RF Planning</li>
+                        <li>Instructor: Eng. Waleed Elsafoury</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>GHARBIA ENGINEERS SYNDICATE (2022):</strong> Basics of Electrical Engineering
+                    <ul>
+                        <li>Protection</li>
+                        <li>Distribution Network Automation</li>
+                        <li>Fundamentals of Electrical Power Systems Engineering</li>
+                        <li>Fundamentals of Communications</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>English Courses:</strong>
+                    <ul>
+                        <li>English Level (1, 2, and 3), Creative Group, May 2019</li>
+                        <li>English (A2), Edraak, July 2021</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>Technical Courses:</strong>
+                    <ul>
+                        <li>Fundamental of Embedded System, Robotech EG, November 2021</li>
+                        <li>Electrical Distribution, Udemy, June 2022</li>
+                        <li>Solar Energy Using AutoCAD and PVsyst, Udemy, August 2022</li>
+                        <li>Revit (MEP), Udemy, August 2022</li>
+                        <li>Analog IC Design, Mahara Tech, July 2022</li>
+                        <li>Telecom Basics, Udemy, February 2023</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>Programming Courses:</strong>
+                    <ul>
+                        <li>Mastering Programming by Dart - A Comprehensive Course in [Arabic] – Udemy ,December 2024</li>
+                        <li>Python for Data Science and Machine Learning – Udemy ,May 2025</li>
+                        <li>Complete Flutter & Dart Development Course [Arabic] - Udemy ,June 2025</li>
+                        <li>AI and Machine Learning Foundations – Sprints ,June 2025</li>
+                    </ul>
+                </li>
+            </ul>
+            <ul class="ar hidden">
+<li><strong>أكاديمية المواهب المصرية (ETA) التابعة لشركة NTI/Huawei (2025):</strong> الذكاء الاصطناعي (AI) (HCIA-AI)
+                    <ul>
+                        <li>أكملت رحلة مكثفة في مجال الذكاء الاصطناعي شملت الأساسيات وعلم البيانات والتعلم الآلي.</li>
+                        <li>اكتسب مهارات عملية في التعلم الخاضع للإشراف وغير الخاضع للإشراف والتعلم العميق (ANN، CNN، NLP، RNN).</li>
+                        <li>طور مشروعًا نهائيًا حول الكشف المبكر عن أمراض النباتات باستخدام التعلم العميق.</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+
+<li><strong>مراكز الإبداع والابتكار  (Creativa) (2025):</strong> معسكر فلاتر (Flutter)
+                    <ul>
+                        <li>أكملت تدريباً عملياً على أساسيات Dart & Flutter، و OOP، وتكامل API، وإدارة الحالة باستخدام Cubit & BLoC.</li>
+                        <li>طورت العديد من التطبيقات الواقعية بما في ذلك تطبيق BMI وتطبيق ToDo وتطبيق News وتطبيق Islamic وتطبيق Calculator.</li>
+                        <li>تقدم إلى مستوى متوسط في بناء تطبيقات جوّالة قابلة للتطوير والصيانة.</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+
+                <li><strong>المصرية للاتصالات (WE) (2023):</strong> Cisco Certified Network Associate (CCNA 200-301)
+                    <ul>
+                        <li>Introduction to Networks</li>
+                        <li>Switching, Routing, and Wireless Essentials</li>
+                        <li>Enterprise Networking, Security, and Automation</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>أكاديمية تراست للاتصالات (2023):</strong> Mobile Package
+                    <ul>
+                        <li>GSM, GPRS, EDGE, CDMA, UMTS, and HSPA</li>
+                        <li>LTE, LTE-A, and LTE-A Pro</li>
+                        <li>2G, 3G, and 4G Drive Test & Post Processing</li>
+                        <li>5G (NR) Mobile Technology</li>
+                        <li>5G and 4G RF Planning</li>
+                        <li>المحاضر: المهندس وليد الصفوري</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>نقابة المهندسين بالغربية (2022):</strong> أساسيات الهندسة الكهربائية
+                    <ul>
+                        <li>الحماية</li>
+                        <li>أتمتة شبكات التوزيع</li>
+                        <li>أساسيات هندسة أنظمة الطاقة الكهربائية</li>
+                        <li>أساسيات الاتصالات</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>الدورات اللغة الإنجليزية:</strong>
+                    <ul>
+                        <li>English Level (1, 2, and 3), Creative Group, مايو 2019</li>
+                        <li>English (A2), Edraak, يوليو 2021</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>الدورات الفنية:</strong>
+                    <ul>
+                        <li>أساسيات النظام المدمج, Robotech EG, نوفمبر 2021</li>
+                        <li>التوزيع الكهربائي, Udemy, يونيو 2022</li>
+                        <li>الطاقة الشمسية باستخدام AutoCAD و PVsyst, Udemy, أغسطس 2022</li>
+                        <li>ريفيت (MEP), Udemy, أغسطس 2022</li>
+                        <li>تصميم الدائرة المتكاملة التناظرية, Mahara Tech, يوليو 2022</li>
+                        <li>أساسيات الاتصالات, Udemy, فبراير 2023</li>
+                    </ul>
+                </li>
+                <p>------------------------------</p>
+                <li><strong>دورات البرمجة:</strong>
+                    <ul>
+                        <li>إتقان البرمجة باستخدام Dart - دورة شاملة باللغة العربية – Udemy ، ديسمبر 2024</li>
+<li>بايثون لعلوم البيانات والتعلم الآلي – Udemy ، مايو 2025</li>
+                        <li>دورة كاملة لتطوير Flutter & Dart [باللغة العربية] - Udemy ، يونيو 2025</li>
+                        <li>أساسيات الذكاء الاصطناعي والتعلم الآلي – سبرينتس (Sprints)، يونيو 2025</li>
+
+                    </ul>
+                </li>
+            </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+
+        <section id="certificates" data-aos="fade-up" class="section hidden">
+            <h2 class="en">Certificates & Honors</h2>
+            <h2 class="ar hidden">الشهادات والتكريمات</h2>
+            <ul class="en">
+ <li>Artificial Intelligence (AI) (HCIA-AI) from (NTI/Huawei Egyptian Talent Academy (ETA)) (2025) <a href="https://drive.google.com/file/d/1N3XyRdsflW424ToNiiOry8QSJgx1Iddq/view" target="_blank">Artificial Intelligence (AI) (HCIA-AI)</a></li>
+
+<li>Flutter Camp from (Creativa Innovation Hubs) (2025) <a href="https://drive.google.com/file/d/1pyP6hgKeWUrDzYPT8MzxpC1pHQdFWkST/view" target="_blank">Flutter Camp</a></li>
+
+                <li>SVA Certificate of Honor for obtaining first place in Communications and Electronics Engineering (2024) <a href="https://drive.google.com/file/d/1rIGoV_gi1LCeWBuLEclC2f-QxGcViedk/view?usp=drive_link" target="_blank">Certificate of Honor and Appreciation SVA</a></li>
+                <li>CCNA Certification from Telecom Egypt (2023) <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view" target="_blank">Cisco_CCNA (200-301)_ Telecom Egypt (WE)</a></li>
+                <li>Mobile Package Training Certificate (Trust Telecom Academy) (2023) <a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view" target="_blank">Mobile Package</a></li>
+                <li>SVA Certificate of Honor and Appreciation for obtaining third place in the Department of Electrical Engineering (2022) <a href="https://drive.google.com/file/d/19l4Pc1FtbySo5GCFcxa-T9q_adMRsmFT/view?usp=drive_link" target="_blank">COA_SVA</a></li>
+                <li>Certificate of Honor for assisting in e-learning during COVID-19 pandemic (2020) <a href="https://drive.google.com/file/d/1zlKThV118BnG0Zp20Q9IeyPy2rT9P8RP/view" target="_blank">COA_SVA</a></li>
+            </ul>
+            <ul class="ar hidden">
+ <li>الذكاء الاصطناعي (AI) (HCIA-AI) من (NTI/أكاديمية هواوي للمواهب المصرية (ETA)) (2025)<a href="https://drive.google.com/file/d/1N3XyRdsflW424ToNiiOry8QSJgx1Iddq/view" target="_blank">الذكاء الاصطناعي (AI) (HCIA-AI)</a></li>
+
+ <li>معسكر Flutter من (مراكز الابتكار الإبداعية (Creativa)) (2025)<a href="https://drive.google.com/file/d/1pyP6hgKeWUrDzYPT8MzxpC1pHQdFWkST/view" target="_blank">Flutter</a></li>
+
+                <li>شهادة تكريم من SVA لحصولي على المركز الأول في هندسة الاتصالات والإلكترونيات (2024) <a href="https://drive.google.com/file/d/1rIGoV_gi1LCeWBuLEclC2f-QxGcViedk/view?usp=drive_link" target="_blank">شهادة تكريم وتقدير من SVA</a></li>
+                <li>شهادة CCNA من شركة المصرية للاتصالات (2023) <a href="https://drive.google.com/file/d/1UwxM08kaNlIenAu-NF6OLeLFkt58a9f0/view" target="_blank">Cisco_CCNA (200-301)_ المصرية للاتصالات (WE)</a></li>
+                <li>شهادة تدريب (Mobile Package) (أكاديمية تراست للاتصالات) (2023) <a href="https://drive.google.com/file/d/1_wpWXb9EOZADuj5qC8eqlaxkcFoGNog5/view" target="_blank">Mobile Package</a></li>
+                <li>شهادة تكريم وتقدير من SVA لحصولي على المركز الثالث في قسم الهندسة الكهربائية (2022) <a href="https://drive.google.com/file/d/19l4Pc1FtbySo5GCFcxa-T9q_adMRsmFT/view?usp=drive_link" target="_blank">شهادة تكريم وتقدير من SVA</a></li>
+                <li>شهادة تكريم للمساعدة في التعلم الإلكتروني خلال جائحة كوفيد-19 (2020) <a href="https://drive.google.com/file/d/1zlKThV118BnG0Zp20Q9IeyPy2rT9P8RP/view" target="_blank">شهادة تكريم وتقدير من SVA</a></li>
+            </ul>
+            <button class="back-btn en" onclick="showHome()">Back</button>
+            <button class="back-btn ar hidden" onclick="showHome()">رجوع</button>
+        </section>
+    </main>
+
+    <footer>
+        <p class="en">© 2024 Mostafa Khalid Sallam. All Rights Reserved.</p>
+        <p class="ar hidden">© 2024 مصطفى خالد سلام. جميع الحقوق محفوظة.</p>
+        <p class="en">Developed with 🤍✨ by Eng. Mostafa Khalid Sallam</p>
+        <p class="ar hidden">تم التطوير بـ 🤍✨ بواسطة المهندس مصطفى خالد سلام</p>
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    <script src="./scripts.js"></script>
+</body>
+</html>
