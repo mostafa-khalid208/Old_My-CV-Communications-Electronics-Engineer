@@ -10,6 +10,8 @@ A modern, responsive, and bilingual personal portfolio website showcasing my aca
 - 📄 CV (Google Drive):  
   https://drive.google.com/drive/u/1/folders/1kpppwx5oH_oj1Bh7M9Oz1F-sH6rwQeOk
 
+🔗 **Portfolio Website:**  
+👉 https://mostafa-khalid208.github.io/Old_My-CV-Communications-Electronics-Engineer/
 ---
 
 ## 📌 Features
